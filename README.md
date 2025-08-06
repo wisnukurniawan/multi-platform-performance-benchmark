@@ -17,4 +17,4 @@
    - Flutter is the fastest (182.4 ms), followed by ReactLynx Native (384.3 ms), then React Native (782.9 ms).
 
 2. Hot Launch Performance:
-   - ReactLynx Native is the fastest (33.0 ms), followed by React Native (79.4 ms), then Flutter (79.4 ms).
+   - ReactLynx Native is the fastest (33.0 ms), followed by ReactLynx Native (33.0 ms), then Flutter (79.4 ms).
