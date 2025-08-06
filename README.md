@@ -7,7 +7,7 @@
 
 ## Android - App Launch Result
 
-| Platform     | Cold Launch Average (ms) | Average Hot Launch (ms) |
+| Platform     | Cold Launch Average (ms) | Average Hot Launch Average (ms) |
 | ------------ | ---------------- | --------------- |
 | ReactLynx Native  | **384.3**        | **33.0**        |
 | React Native | **782.9**        | **37.8**        |
