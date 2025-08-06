@@ -9,7 +9,7 @@
 
 React Native - Flutter - ReactLynx Native
 
-<img src="/demo/app-launch-demo.mp4" />
+[<img src="https://github.com/wisnukurniawan/multi-platform-performance-benchmark/blob/main/demo/app-launch-demo.mp4" />](https://github.com/wisnukurniawan/multi-platform-performance-benchmark/blob/main/demo/app-launch-demo.mp4)
 
 
 | Platform     | Cold Launch Average (ms) | Average Hot Launch Average (ms) |
