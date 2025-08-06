@@ -1,15 +1,15 @@
 # Multi-Platform Performance Benchmark
 
-- **Flutter**
-- **React Native**
 - **React Lynx Native**
+- **React Native**
+- **Flutter**
 
 
 ## Android - App Launch Result
 
 | Platform        | Launch Type | Average Time (ms) |
 |-----------------|-------------|-------------------|
-| **Lynx Native** | Cold        | 384.3             |
+| **React Lynx Native** | Cold        | 384.3             |
 |                 | Hot         | 33.0              |
 | **React Native**| Cold        | 782.9             |
 |                 | Hot         | 37.8              |
