@@ -1,11 +1,16 @@
 # Multi-Platform Performance Benchmark
 
-- **React Lynx Native**
+- **ReactLynx Native**
 - **React Native**
 - **Flutter**
 
 
 ## Android - App Launch Result
+
+React Native - Flutter - ReactLynx Native
+
+<img src="/demo/app-launch-demo.mp4" />
+
 
 | Platform     | Cold Launch Average (ms) | Average Hot Launch Average (ms) |
 | ------------ | ---------------- | --------------- |
