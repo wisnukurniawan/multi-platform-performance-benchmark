@@ -1,10 +1,9 @@
 # Multi-Platform Performance Benchmark
 
 Nowadays, there are various multi-platform frameworks available for mobile app development. These frameworks offer the advantage of writing code in a single language while deploying applications across multiple platforms, such as Android and iOS. This significantly makes the development process efficient, reduces maintenance efforts, and ensures consistency across different operating systems.
-This document focuses on benchmarking the performance of applications built using three popular multi-platform technologies: Flutter, ReactLynx Native, and React Native. Specifically, we evaluate and compare their efficiency in two critical performance metrics: app launch time and scrolling smoothness. By analyzing these aspects, we aim to provide insights into how each framework performs.
+This project focuses on benchmarking the performance of applications built using three popular multi-platform technologies: Flutter, ReactLynx Native, and React Native. Specifically, I evaluate and compare their efficiency in two critical performance metrics: app launch time and scrolling smoothness. By analyzing these aspects, I aim to provide insights into how each framework performs.
 
 ## App Specification:
-- Project repository: https://github.com/wisnukurniawan/multi-platform-performance-benchmark
 - Platform: Flutter, ReactLynx Native, React Native
 - Load a 100++ list of products that  contains image and text
 - OS: Android
@@ -14,7 +13,7 @@ This document focuses on benchmarking the performance of applications built usin
   - Version Code: 31
 
 ## App Launch Time
-In this section, we evaluate the differences in time duration between cold launch and hot launch scenarios.
+In this section, I evaluate the differences in time duration between cold launch and hot launch scenarios.
 - A cold launch refers to an app starting from scratch. Cold launch happens in cases such as an app launching for the first time since the device booted or since the system killed the app. According to Android Vitals, a good cold launch time should not exceed 5 seconds.
 - A hot launch refers to the re-launch of an app causing an Activity onResume to be triggered. According to Android Vitals, a good cold launch time should not exceed 1.5 seconds.
 Cold Launch React Native - Flutter - ReactLynx Native
@@ -35,7 +34,7 @@ Based on the benchmark results, all tested frameworks successfully meet Android 
 
 ## Scrolling Smoothness
 
-In this section, we assess the smoothness of scrolling behaviour using two key metrics: jank (frame drops) and FPS (frames per second).
+In this section, I assess the smoothness of scrolling behaviour using two key metrics: jank (frame drops) and FPS (frames per second).
 - Jank Analysis
   - Measured using Perfetto Frame Timeline
     - Green slices: Represent frames that are rendered within the 16.6ms budget (for 60Hz displays)
@@ -63,7 +62,7 @@ https://github.com/user-attachments/assets/220d5cfe-cfe2-40a6-99f5-e0d806ed9925
 
 
 
-Based on our analysis using Perfetto and GPUWatch, the scrolling performance comparison reveals differences between the frameworks:
+Based on my analysis using Perfetto and GPUWatch, the scrolling performance comparison reveals differences between the frameworks:
 - Flutter demonstrated near-perfect smoothness:
   - Averaged 55-60 FPS during scrolling (close to ideal 60Hz refresh rate)
   - Showed no orange slices in Perfetto (indicating zero dropped frames)
